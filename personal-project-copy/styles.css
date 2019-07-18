@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  border: 0px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    /* background-color: #D9E4F0; */
+    background-image: url("pexels-photo.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+
+
+}
+
+.heading{
+  color: #082745;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 60px;
+  background-color: #77c276;
+  height: 150px;
+}
+
+.about {
+  background-color: #f2f2f2;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+.head-mission{
+  background-color: #f2f2f2
+  font-size: 30px;
+}
+
+h2 {
+  color: #082745;
+}
+
+.firstbutton{
+  /* margin: auto; */
+  /* display: flex;
+  flex-direction:column;
+  align-items: flex-start; */
+  font-size: 40px;
+  background-color: white;
+  width: 750px;
+  /* margin-left: 300px;
+  margin-right: 300px; */
+}
+
+.photos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* align-items: flex-start; */
+  width: 1000px;
+  font-size: 20px;
+}
+
+.card-container {
+  /* background-color: white; */
+  width: 550px;
+  padding: 10px;
+}
+
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7ffbf;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  width: 80px;
+  height: 40px;
+}
+img{
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  margin: 25px;
+  padding: 25px;
+}
+.idea{
+  font-size: 20px;
+}
+
+.need-ideas{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.type-here{
+  text-align: left;
+  font-size: 30px;
+  background-color: #e6ebf2;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+}
+
+.submit-btn {
+  font-size: 15px;
+  width: 100px;
+}
+
+.delete-btn {
+  width: 55px;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: white;
+}
+
+.globe {
+  border-radius: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 16%;
+}
+
+.idea {
+  margin-bottom: 20px;
+}
+
+.contribution-log {
+    display: flex;
+    flex-direction: column;
+    align-items: first-start;
+    text-align: center;
+    display: inline-block;
+    background color: #c7ffbf;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+
+.whitebackground {
+  background-color: #e6ebf2;
+}
+.grass{
+  display: flex;
+  width: 110%;
+  margin-left:-50px;
+}
+
+/* @media screen and (max-width: 350px) {
+  body{
+    flex-direction:column;
+    margin: none;
+  }
+} */
